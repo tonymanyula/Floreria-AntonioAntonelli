@@ -1,0 +1,49 @@
+nav img {
+	width: 10%;
+	
+}
+
+article{
+	padding-bottom: 4em;
+}
+
+article img{
+	display: block;
+	margin: auto;
+
+}
+
+header img{
+	display: block;
+	margin: auto;
+}
+
+
+
+
+
+
+
+/* FOOTER */ 
+footer{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li{
+    margin: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+footer ul li a:hover{
+    color: black;
+}
