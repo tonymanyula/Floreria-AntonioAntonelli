@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+/* VARIABLES */
+/* $Navcolor: $gray-100; esta variable de color es incorrecta
+$logoAntonelli: img src="img/ramo11.jpg"; y aqui la idea es poder realizar el cambio de logo */
+/* Variables */
+/* aqui deseo colocar las 3 imagenes del bannner, pero no se como llamarlas! */
+/* FOOTER anterior - Ahora use uno de bootsrtap*/
+.footer--color {
+  background-color: bg-light; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 15vh; }
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer ul li {
+      display: inline;
+      margin: 10px;
+      cursor: pointer;
+      list-style: none; }
+      footer ul li a {
+        text-decoration: none; }
+        footer ul li a a:hover {
+          color: black; }

@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="es">
   <head>
     <!-- Required meta tags -->
@@ -27,9 +27,9 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-5">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <h5 class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Productos
-        </a>
+        </h5>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="Ramos.html">Ramos</a>
@@ -40,12 +40,12 @@
         </div>
       </li>
             
-      <li class="nav-item active">
+      <h5 class="nav-item">
         <a class="nav-link" href="envios.html">Envios<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
+      </h5>
+      <h5 class="nav-item">
         <a class="nav-link" href="contacto.html">Contacto</a>
-      </li>
+      </h5>
       
     </ul>
   </div>
@@ -102,35 +102,45 @@
   </ol>
     </nav>
 
-    <h1 class="my-4 ml-5 text-info">Contacto</h1>
-    <section class="mt-5">
+    <h1 class="my-4 ml-3 text-info">Contacto</h1>
+    <section class="col-md-3 mt-5">
         <div class="container fluid">
-            <div class="row">
-        <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <div class="row">
+
+        <form>  
+        <div class="form-group ml-5">
+          <label for="exampleFormControlInput1">Direccion de mail</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
-        <div class="form-group">
+        
+        <div class="form-group ml-5">
           <label for="exampleFormControlInput1">Nombre completo</label>
           <input class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
-           
-
-          </select>
         </div>
-        
 
-          </select>
-        </div>
-        <div class="form-group">
+        <div class="form-group ml-5">
           <label for="exampleFormControlTextarea1">Consulta / Mensaje</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-      </form>
 
+        <button type="submit" class="btn btn-primary ml-5 mb-5">Enviar</button>
+        </form>
+        
+        <h2 class="my-4 ml-3 text-info">Ubicacion</h2>
+        <div class="my-4 ml-3">
+          <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=-34.4972247505839~-58.52513313293457&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+          </iframe>
+          <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+             <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-34.4972247505839~-58.52513313293457&amp;sty=r&amp;lvl=16&amp;FORM=MBEDLD">Ver mapa más grande</a> &nbsp; | &nbsp;
+             <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=-34.4972247505839~-58.52513313293457&amp;sty=r&amp;lvl=16&amp;rtp=~pos.-34.4972247505839_-58.52513313293457____&amp;FORM=MBEDLD">Obtener indicaciones</a>
+          </div>
+        </div>
+
+     </section>
+        </div>
+  
 
     <section>
-        
         <section class="bg-danger mt-5">
         <div class="container fluid">
             <div class="row">
@@ -140,20 +150,20 @@
                     <h4 class="text-white text-center mt-2">a tus flores</h4>
                 </article>
 
-                 <article class="col-md-3 text-center" >
-                    <img src="img/Chocolates/heart-chocolates.jpg" alt="chocolates">
-                    <button type="button" class="btn btn-secondary">Chocolates</button>
-                 </article>
+                <article class="col-md-3 text-center mt-3 mb-3">
+                  <img src="img/Chocolates/chocolate.jpg" alt="chocolates">
+                  <a href="Accesorios.html" button type="button" class="btn btn-secondary">Chocolates</button></a>
+               </article>
 
-                <article class="col-md-3 text-center" >
-                    <img src="img/Teddy/teddy-bear-white.jpg" alt="peluches">
-                    <button type="button" class="btn btn-secondary">Peluches</button>
-                 </article>
+              <article class="col-md-3 text-center mt-3 mb-3">
+                  <img src="img/Teddy/teddy-4.jpg" alt="peluches">
+                  <a href="Accesorios.html" button type="button" class="btn btn-secondary">Peluches</button></a>
+               </article>
 
-                 <article class="col-md-3 text-center" >
-                    <img src="img/Cards/card-love.jpg" alt="tarjetas">
-                    <button type="button" class="btn btn-secondary">Tarjetas</button>
-                 </article>
+               <article class="col-md-3 text-center mt-3 mb-3">
+                  <img src="img/Cards/card-love.jpg" alt="tarjetas">
+                  <a href="Accesorios.html" button type="button" class="btn btn-secondary">Tarjetas</button></a>
+               </article>
     </section>
 
 
@@ -199,7 +209,7 @@
             <i class="fas fa-gem me-3"></i>Antonelli flores
           </h6>
           <p>
-            Desde 1960 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia maxime harum, blanditiis explicabo impedit doloremque hic minima recusandae maiores amet! Repellat deleniti nulla laborum tempore mollitia accusantium, recusandae nobis. Iusto.
+            Desde 1960 acompañando tus sentimientos en cada uno de nuestros productos. Siempre el buen gusto, la calidad y la selección de nuestros productos junto a la originalidad y experiencia de que nos caracterizan, son la mejor garantía y seguridad de ¨quedar muy bien¨ en cualquier acontecimiento.
           </p>
         </div>
         <!-- Grid column -->
